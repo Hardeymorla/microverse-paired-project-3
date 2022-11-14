@@ -1,0 +1,38 @@
+body{
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.5;
+    font-size: 0.96em;
+}
+#main-doc{
+    padding: 7px;
+    display: flex;
+    width: 97%;
+
+}
+#left{
+    width: 30%;
+    /* flex-direction: column; */
+    padding: 20px;
+    scroll-behavior: unset;
+    overflow: scroll;
+
+}
+#right{
+    width: 70%;
+}
+p{
+    margin-left: 10px;
+}
+.box{
+    margin: 0 20px auto;
+    background-color: whitesmoke;
+    padding: 2% 2%;
+    border-radius: 3px ;
+
+}
+#left a, hr{
+    color: black;
+    text-decoration: none;
+    
+    margin-bottom: 8%;
+}
